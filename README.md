@@ -7,4 +7,4 @@
 
 3.  finally we present datasets with race results , driver standings , team standings , etc ...
 
-4 . Also a couple of visualizations are made in the databricks notebooks of the dominant drivers and teams for a better understanding of the subjects that we explore.
+4. Also a couple of visualizations are made in the databricks notebooks of the dominant drivers and teams for a better understanding of the subjects that we explore.

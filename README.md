@@ -5,6 +5,6 @@
 
 2. we transform the data using databricks notebooks to make the data ready for presentation 
 
-3.  finally we present datasets with race results , driver standings , team standings , etc ...
+3. we present datasets with race results , driver standings , team standings , etc ...
 
-4. Also a couple of visualizations are made in the databricks notebooks of the dominant drivers and teams for a better understanding of the subjects that we explore.
+4. A couple of visualizations are made in the databricks notebooks of the dominant drivers and teams for a better understanding of the subjects that we explore.

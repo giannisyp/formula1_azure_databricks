@@ -106,6 +106,15 @@ results_final_df = results_with_ingestion_date_df.drop(col("statusId"))
 
 # COMMAND ----------
 
+# MAGIC %md 
+# MAGIC ##### Drop Duplicated of the dataframa
+
+# COMMAND ----------
+
+results_dedubed_df = results_final_df.dropDuplicates(["race_id", "driver_id"])
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ### Step 4 - Write to output to processed container in parquet format 
 
@@ -131,7 +140,12 @@ results_final_df = results_with_ingestion_date_df.drop(col("statusId"))
 
 # COMMAND ----------
 
-overwrite_partition(results_final_df,"f1_processed","results","race_id")
+# overwrite_partition(results_final_df,"f1_processed","results","race_id")
+
+# COMMAND ----------
+
+merge_condition = "tgt.result_id = src.result_id AND tgt.race_id = src.race_id"
+merge_delta_data(results_dedubed_df, "f1_processed", "results", processed_folder_path, merge_condition, "race_id")
 
 # COMMAND ----------
 

@@ -59,16 +59,12 @@ constructor_final_df = add_ingestion_date(constructor_droped_df)\
 
 # COMMAND ----------
 
-display(constructor_final_df)
-
-# COMMAND ----------
-
 # MAGIC %md 
 # MAGIC ### Step 4 - Write output to parquet file
 
 # COMMAND ----------
 
-constructor_final_df.write.mode("overwrite").format("parquet").saveAsTable("f1_processed.constructors")
+constructor_final_df.write.mode("overwrite").format("delta").saveAsTable("f1_processed.constructors")
 
 # COMMAND ----------
 

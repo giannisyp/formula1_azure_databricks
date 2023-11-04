@@ -85,7 +85,7 @@ races_selected_df = races_with_ingestion_date_df.select(col('raceId').alias('rac
 
 # COMMAND ----------
 
-races_selected_df.write.mode("overwrite").format("parquet").saveAsTable("f1_processed.races")
+races_selected_df.write.mode("overwrite").format("delta").saveAsTable("f1_processed.races")
 
 # COMMAND ----------
 
@@ -94,3 +94,6 @@ display(races_selected_df)
 # COMMAND ----------
 
 dbutils.notebook.exit("Success")
+
+# COMMAND ----------
+

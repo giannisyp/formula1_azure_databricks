@@ -10,12 +10,11 @@
 3. Transform the data using databricks notebooks to make the data ready for presentation 
 4. Present datasets with race results , driver standings , team standings , etc ...
 
-![photo2](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/feda489a-6a01-4fb2-b701-2a0c976f7a81)
-
 
 Architecture Used is the common medallion architecture.
 A medallion architecture is a data design pattern used to logically organize data in a lakehouse, with the goal of incrementally and progressively improving the structure and quality of data as it flows through each layer of the architecture (from Bronze ⇒ Silver ⇒ Gold layer tables). Medallion architectures are sometimes also referred to as "multi-hop" architectures.
 
+![photo2](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/feda489a-6a01-4fb2-b701-2a0c976f7a81)
 
 5. Later on the project the datalake is transformed into the new delta lake architecture for even better data management.
 

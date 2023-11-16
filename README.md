@@ -31,6 +31,7 @@ A medallion architecture is a data design pattern used to logically organize dat
 7. For orchestration purposes Azure Data factory pipelines are used to automate the databricks notebooks that trigger every day to refresh and reload the data for the new races.
 
 ![photo6](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/54a8702e-3754-4d5c-a35f-6bfdd712e743)
+
 ![photo7](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/067e6b87-184f-4bbd-9a09-db3e0d2f1e00)
 
 

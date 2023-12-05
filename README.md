@@ -16,7 +16,7 @@ A medallion architecture is a data design pattern used to logically organize dat
 
 ![photo2](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/feda489a-6a01-4fb2-b701-2a0c976f7a81)
 
-5. Later on the project the datalake is transformed into the new delta lake architecture for even better data management.
+5. Later on the project the datalake is transformed into the new delta lake architecture for even better data management and transaction logging.
 
 ![photo3](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/3b55ccb8-90a3-4d42-8329-f24fe97cc0eb)
 

@@ -1,6 +1,6 @@
 # Formula1 project with Azure Databricks
 
-## This is a project that uses azure databricks to do analysis on formula1 drivers results and teams.
+## This is a project that uses azure databricks to do analysis on formula1 drivers results and teams
 
 ![photo1](https://github.com/giannisyp/formula1_azure_databricks/assets/119696474/13d15643-eb31-4bcd-81ee-de60ccc6be63)
 
